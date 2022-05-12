@@ -14,6 +14,10 @@ const HomePage = () => {
         My default route is named <code>home</code>, link to me with `
         <Link to={routes.home()}>Home</Link>`
       </p>
+      <p>
+        A link to another page, named <code>second</code>, link to me with `
+        <Link to={routes.second()}>Second</Link>`
+      </p>
     </>
   )
 }
